@@ -2,11 +2,12 @@ import Image from "next/image";
 import Navbar from "./ui/navbar";
 import Collection from "./ui/collection";
 import {
-  braceletProducts,
-  nymphProducts,
   necklacePreview,
-  goddessProducts,
+  braceletProducts,
   ringProducts,
+  earringProducts,
+  nymphProducts,
+  goddessProducts,
   warriorProducts,
   queenProducts,
 } from "./product/data";
@@ -102,6 +103,13 @@ export default function Home() {
           title="Rings"
           button={{ text: "More Rings", link: basePath("catalog/rings") }}
           products={ringProducts}
+        />
+        <Divider />
+        {/* === EARRINGS === */}
+        <Collection
+          title="Earrings"
+          button={{ text: "More Earrings", link: basePath("catalog/earrings") }}
+          products={earringProducts}
         />
         <Divider />
         {/* === GODDESS COLLECTION=== */}
