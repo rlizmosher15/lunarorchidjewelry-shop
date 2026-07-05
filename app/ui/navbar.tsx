@@ -30,27 +30,39 @@ export default function Navbar() {
             <div className="hidden lg:flex items-center space-x-8">
               <Link
                 href="/"
-                className="text-white text-lg font-cinzel hover:text-primary transition-colors"
+                className="text-white text-sm font-cinzel hover:text-primary transition-colors"
               >
                 Home
               </Link>
               <Link
+                href="/catalog/all"
+                className="text-white text-sm font-cinzel hover:text-primary transition-colors"
+              >
+                All Products
+              </Link>
+              <Link
                 href="/catalog/necklaces"
-                className="text-white text-lg font-cinzel hover:text-primary transition-colors"
+                className="text-white text-sm font-cinzel hover:text-primary transition-colors"
               >
                 Necklaces
               </Link>
               <Link
                 href="/catalog/bracelets"
-                className="text-white text-lg font-cinzel hover:text-primary transition-colors"
+                className="text-white text-sm font-cinzel hover:text-primary transition-colors"
               >
                 Bracelets
               </Link>
               <Link
                 href="/catalog/rings"
-                className="text-white text-lg font-cinzel hover:text-primary transition-colors"
+                className="text-white text-sm font-cinzel hover:text-primary transition-colors"
               >
                 Rings
+              </Link>
+              <Link
+                href="/catalog/earrings"
+                className="text-white text-sm font-cinzel hover:text-primary transition-colors"
+              >
+                Earrings
               </Link>
             </div>
 
@@ -132,6 +144,15 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
+                  href="/catalog/all"
+                  className="text-white text-lg font-josefin hover:text-primary transition-colors block"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  All Products
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/catalog/necklaces"
                   className="text-white text-lg font-josefin hover:text-primary transition-colors block"
                   onClick={() => setMenuOpen(false)}
@@ -157,6 +178,15 @@ export default function Navbar() {
                   Rings
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/catalog/earrings"
+                  className="text-white text-lg font-josefin hover:text-primary transition-colors block"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  Earrings
+                </Link>
+              </li>
               <li className="flex justify-center space-x-4 pt-4">
                 <a
                   href="#"
@@ -164,7 +194,7 @@ export default function Navbar() {
                   aria-label="Instagram"
                 >
                   <Image
-                    src={basePath("images/lunar-orchid-logo-dark.png")}
+                    src={basePath("images/instagram-logo.png")}
                     alt="Lunar Orchid Jewelry Instagram"
                     height={60}
                     width={60}
@@ -177,24 +207,11 @@ export default function Navbar() {
                   aria-label="Pinterest"
                 >
                   <Image
-                    src={basePath("images/lunar-orchid-logo.png")}
+                    src={basePath("images/pinterest-logo.png")}
                     alt="Lunar Orchid Jewelry Pinterest"
                     height={60}
                     width={60}
                     className="fab fa-pinterest text-lg"
-                  />
-                </a>
-                <a
-                  href="#"
-                  className="text-white p-2 hover:text-primary transition-colors"
-                  aria-label="Facebook"
-                >
-                  <Image
-                    src={basePath("images/lunar-orchid-logo-dark.png")}
-                    alt="Lunar Orchid Jewelry Facebook"
-                    height={60}
-                    width={60}
-                    className="fab fa-facebook text-lg"
                   />
                 </a>
               </li>

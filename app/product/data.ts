@@ -409,7 +409,7 @@ export const products: Record<string, Product> = {
     title: "Copper Spiral Ring",
     description: "description",
     paragraphs: ["Each ring is made to order and will have slight variations."],
-    coverImage: "images/copper-spiral-ring.jpg",
+    coverImage: "images/copper-spiral-ring-0.jpg",
     coverImageAlt: "Copper Spiral Ring",
     price: "18",
     purchaseLink: "",
@@ -421,12 +421,18 @@ export const products: Record<string, Product> = {
     title: "Aztec Heart",
     description: "Hammered Copper Spiral Ring",
     paragraphs: ["Each ring is made to order and will have slight variations."],
-    coverImage: "images/flat-copper-spiral-ring.jpg",
+    coverImage: "images/flat-copper-spiral-ring-0.jpg",
     coverImageAlt: "Hammered Copper Spiral Ring",
     price: "18",
     purchaseLink: "",
     materials: "Copper",
-    productImages: [{ img: "images/flat-copper-spiral-ring-0.jpg", alt: "Hammered Spiral Ring" }],
+    productImages: [{ img: "images/flat-copper-spiral-ring-0.jpg", alt: "Hammered Spiral Ring" },
+      { img: "images/flat-copper-spiral-ring-1.jpg", alt: "Hammered Spiral Ring" },
+      { img: "images/flat-copper-spiral-ring-2.jpg", alt: "Hammered Spiral Ring" },
+      { img: "images/flat-copper-spiral-ring-3.jpg", alt: "Hammered Spiral Ring" },
+      { img: "images/flat-copper-spiral-ring-4.jpg", alt: "Hammered Spiral Ring" },
+      { img: "images/flat-copper-spiral-ring-5.jpg", alt: "Hammered Spiral Ring" },
+      { img: "images/flat-copper-spiral-ring-6.jpg", alt: "Hammered Spiral Ring" },],
   }),
   "copper-rose-ring": new Product({
     slug: "copper-rose-ring",
@@ -451,7 +457,7 @@ export const products: Record<string, Product> = {
     title: "Silver Rose Ring",
     description: "Silver Plated Copper Wrapped Ring",
     paragraphs: [],
-    coverImage: "images/silver-rose-ring.jpg",
+    coverImage: "images/silver-rose-ring-0.jpg",
     coverImageAlt: "Silver Rose Ring",
     price: "18",
     purchaseLink: "",
@@ -569,6 +575,26 @@ export const necklacePreview = productSet([
   // "sacred-alignment",
 ]);
 
+export const allProducts = productSet([
+  "amethyst-whisper",
+  "copper-breath",
+  "cosmic-oasis",
+  "dragon-blood",
+  "eternal-current",
+  "golden-roots",
+  "faire-magic",
+  "forest-pearl",
+  "rustic-breeze",
+  "midas-touch",
+  "oceanic-roots",
+  "sacred-alignment",
+  "prismatic-tide",
+  "rainbow-pride-cuff",
+  "goddess-cuff",
+  "flat-copper-spiral-ring",
+  "rainbow-industrial-chain",
+]);
+
 export const necklaceProducts = productSet([
   "amethyst-whisper",
   "copper-breath",
@@ -608,7 +634,10 @@ export const nymphProducts = productSet([
 
 export const warriorProducts = productSet(["dragon-blood", "midas-touch"]);
 
-export const queenProducts = productSet(["rainbow-pride-cuff"]);
+export const queenProducts = productSet([
+  "rainbow-pride-cuff",
+  "rainbow-industrial-chain",
+]);
 
 /** Look up a product by its slug. Returns undefined if not found. */
 export function getProductBySlug(slug: string): Product | undefined {

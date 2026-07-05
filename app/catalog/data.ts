@@ -1,5 +1,6 @@
 import {
   Product,
+  allProducts,
   braceletProducts,
   ringProducts,
   necklaceProducts,
@@ -19,6 +20,7 @@ const catalogItems: Record<string, CatalogItem> = {
   bracelets: { title: "Bracelets", products: braceletProducts },
   rings: { title: "Rings", products: ringProducts },
   earrings: { title: "Earrings", products: earringProducts },
+  all: { title: "All Products", products: allProducts },
 };
 
 export default catalogItems;
