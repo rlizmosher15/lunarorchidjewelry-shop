@@ -17,7 +17,16 @@ import { basePath } from "./utils";
 export default function Home() {
   return (
     <>
+      <section>
+        <div className="w-full h-10 bg-secondary text-center justify-center py-2">
+          <h1 className=" font-josephine text-white text-md">
+            Free Shipping on ALL Orders{" "}
+          </h1>
+        </div>
+      </section>
+
       <div className="bg-primary pt-20 font-josefin text-white">
+        {/* === Anouncement === */}
         <Navbar />
         {/* === HERO / HEADER === */}
         <section>

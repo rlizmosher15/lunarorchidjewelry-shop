@@ -562,17 +562,13 @@ export default products;
 
 export const necklacePreview = productSet([
   "amethyst-whisper",
-  "copper-breath",
+  "oceanic-roots",
   "cosmic-oasis",
   "dragon-blood",
   "eternal-current",
   "golden-roots",
   "faire-magic",
   "forest-pearl",
-  // "rustic-breeze",
-  // "midas-touch",
-  // "oceanic-roots",
-  // "sacred-alignment",
 ]);
 
 export const allProducts = productSet([

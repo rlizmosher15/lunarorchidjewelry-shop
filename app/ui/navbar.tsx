@@ -10,11 +10,11 @@ export default function Navbar() {
   return (
     <>
       {/* === NAVBAR === */}
-      <nav className="fixed top-2 left-0 right-0 z-50 container-main mx-auto px-2 rounded-md lg:opacity-90 shadow-lg">
-        <div className="bg-secondary rounded-md max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
+      <nav className="sticky z-30 top-2 justify-center mx-auto px-10 rounded-md lg:opacity-90 shadow-lg">
+        <div className="bg-secondary rounded-md max-w-7xl mx-auto px-4 transition-all">
+          <div className="flex items-center justify-between gap-5 h-16">
             {/* Logo */}
-            <div className="shrink-0">
+            <div className="">
               <Link href="/">
                 <Image
                   src={basePath("images/lunar-orchid-logo.png")}
@@ -27,7 +27,7 @@ export default function Navbar() {
             </div>
 
             {/* Desktop Nav */}
-            <div className="hidden lg:flex items-center space-x-8">
+            <div className="hidden lg:flex items-center text-center space-x-6 px-5">
               <Link
                 href="/"
                 className="text-white text-sm font-cinzel hover:text-primary transition-colors"
