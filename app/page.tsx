@@ -6,6 +6,7 @@ import {
   braceletProducts,
   ringProducts,
   earringProducts,
+  industrialChainProducts,
   nymphProducts,
   goddessProducts,
   warriorProducts,
@@ -87,6 +88,7 @@ export default function Home() {
             className="w-full object-cover"
           />
         </div>
+        {/* === NECKLACES x2 === */}
         {/* === NECKLACES === */}
         <Collection
           title="Necklaces"
@@ -114,25 +116,32 @@ export default function Home() {
           products={ringProducts}
         />
         <Divider />
+        {/* === INDUSTRIAL CHAINS === */}
+        <Collection
+          title="Industrial Chains"
+          button={{ text: "More Chains", link: basePath("catalog/earrings") }}
+          products={industrialChainProducts}
+        />
         {/* === EARRINGS === */}
         <Collection
           title="Earrings"
           button={{ text: "More Earrings", link: basePath("catalog/earrings") }}
           products={earringProducts}
         />
-        <Divider />
-        {/* === GODDESS COLLECTION=== */}
+        {/* === COLLECTIONS ===
+        <Divider />*/}
+        {/* === GODDESS COLLECTION===
         <Collection title="Goddess Collection" products={goddessProducts} />
-        <Divider />
-        {/* === NYMPH COLLECTION === */}
+        <Divider />*/}
+        {/* === NYMPH COLLECTION ===
         <Collection title="Nymph Collection" products={nymphProducts} />
-        <Divider />
-        {/* === WARRIOR COLLECTION === */}
+        <Divider />*/}
+        {/* === WARRIOR COLLECTION ===
         <Collection title="Warrior Collection" products={warriorProducts} />
-        <Divider />
-        {/* === QUEEN COLLECTION === */}
+        <Divider />*/}
+        {/* === QUEEN COLLECTION ===
         <Collection title="Queen Collection" products={queenProducts} />
-        <Divider />
+        <Divider />*/}
         {/* === ABOUT THE CREATOR === */}
         <section className="bg-primary py-16 lg:py-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

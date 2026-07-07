@@ -5,6 +5,7 @@ import {
   ringProducts,
   necklaceProducts,
   earringProducts,
+  industrialChainProducts,
 } from "../product/data";
 
 export type CatalogItem = {
