@@ -524,7 +524,7 @@ export const products: Record<string, Product> = {
     coverImage: "images/rainbow-industrial-chain-0.jpg",
     coverImageAlt: "Rainbow Industrial Chain",
     price: "$18",
-    purchaseLink: "",
+    purchaseLink: "https://buy.stripe.com/6oU5kF7HFfD479h0Qz7Re0l",
     materials: "",
     productImages: [
       { img: "images/rainbow-industrial-chain-0.jpg", alt: "Rainbow Industrial Chain" },
@@ -544,7 +544,7 @@ export const products: Record<string, Product> = {
     coverImage: "images/trans-industrial-chain-0.jpg",
     coverImageAlt: "Trans Industrial Chain",
     price: "$18",
-    purchaseLink: "",
+    purchaseLink: "https://buy.stripe.com/14A14p1jhcqS5190Qz7Re0m",
     materials: "",
     productImages: [
       { img: "images/trans-industrial-chain-0.jpg", alt: "Trans Industrial Chain" },
