@@ -339,6 +339,26 @@ export const products: Record<string, Product> = {
     ],
   }),
 
+    "reflection": new Product({
+      slug: "reflection",
+      title: "Reflection",
+      description: "Silver Plated Copper Wrapped Agate Stone",
+      paragraphs: [],
+      coverImage: "images/reflection-0.jpg",
+      coverImageAlt: "Reflection Pendant",
+      price: "$64",
+      purchaseLink: "",
+      materials: "Silver Plated Copper Wire, Agate Stone",
+      productImages: [
+        { img: "images/reflection-0.jpg", alt: "Reflection Pendant" },
+        { img: "images/reflection-1.jpg", alt: "Reflection Pendant" },
+        { img: "images/reflection-2.jpg", alt: "Reflection Pendant" },
+        { img: "images/reflection-3.jpg", alt: "Reflection Pendant" },
+        { img: "images/reflection-4.jpg", alt: "Reflection Pendant" },
+        { img: "images/reflection-5.jpg", alt: "Reflection Pendant" },
+      ],
+  }),
+
   /* === BRACELETS === */
   /* === BRACELETS === */
   /* === BRACELETS === */
@@ -581,7 +601,7 @@ export const products: Record<string, Product> = {
       { img: "images/bisexual-industrial-chain-1.jpg", alt: "Bisexual Industrial Chain" },
     ],
   }),
-};
+  };
 
 // Index of the products keyed by their slug, for fast lookup
 const productsBySlug = Object.fromEntries(
@@ -600,14 +620,15 @@ export const productSet = (keys: Iterable<string>) => {
 export default products;
 
 export const necklacePreview = productSet([
-  "amethyst-whisper",
-  "oceanic-roots",
+
+  "reflection",
   "cosmic-oasis",
-  "dragon-blood",
   "eternal-current",
+  "dragon-blood",
   "golden-roots",
   "faire-magic",
   "forest-pearl",
+  "amethyst-whisper",
 ]);
 
 export const allProducts = productSet([
@@ -624,6 +645,7 @@ export const allProducts = productSet([
   "oceanic-roots",
   "sacred-alignment",
   "prismatic-tide",
+  "reflection",
   "rainbow-pride-cuff",
   "goddess-cuff",
   "copper-spiral-flat-ring",
@@ -632,9 +654,6 @@ export const allProducts = productSet([
   "silver-spiral-woven-ring",
   "silver-rose-ring",
   "rainbow-industrial-chain",
-  "trans-industrial-chain",
-  "lesbian-industrial-chain",
-  "bisexual-industrial-chain",
 ]);
 
 export const necklaceProducts = productSet([
@@ -651,6 +670,7 @@ export const necklaceProducts = productSet([
   "oceanic-roots",
   "sacred-alignment",
   "prismatic-tide",
+  "reflection",
 ]);
 
 export const braceletProducts = productSet([
@@ -671,9 +691,6 @@ export const earringProducts = productSet([]);
 
 export const industrialChainProducts = productSet([
   "rainbow-industrial-chain",
-  "trans-industrial-chain",
-  "lesbian-industrial-chain",
-  "bisexual-industrial-chain",
 ]);
 
 export const goddessProducts = productSet([

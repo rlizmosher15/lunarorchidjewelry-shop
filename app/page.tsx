@@ -130,9 +130,9 @@ export default function Home() {
         />
         {/* === COLLECTIONS ===
         <Divider />*/}
-        {/* === GODDESS COLLECTION===
+        {/* === GODDESS COLLECTION===*/}
         <Collection title="Goddess Collection" products={goddessProducts} />
-        <Divider />*/}
+        <Divider />*
         {/* === NYMPH COLLECTION ===
         <Collection title="Nymph Collection" products={nymphProducts} />
         <Divider />*/}
