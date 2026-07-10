@@ -79,7 +79,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <div className="overflow-hidden object-cover w-full ">
+        <div className="overflow-hidden object-cover w-full px-10">
           <Image
             src={basePath("images/lunar-orchid-banner.jpg")}
             alt="Lunar Orchid Jewelry Banner"
@@ -122,17 +122,17 @@ export default function Home() {
           button={{ text: "More Chains", link: basePath("catalog/earrings") }}
           products={industrialChainProducts}
         />
-        {/* === EARRINGS === */}
+        {/* === EARRINGS ===
         <Collection
           title="Earrings"
           button={{ text: "More Earrings", link: basePath("catalog/earrings") }}
           products={earringProducts}
-        />
+        />*/}
         {/* === COLLECTIONS ===
         <Divider />*/}
-        {/* === GODDESS COLLECTION===*/}
+        {/* === GODDESS COLLECTION===
         <Collection title="Goddess Collection" products={goddessProducts} />
-        <Divider />*
+        <Divider />**/}
         {/* === NYMPH COLLECTION ===
         <Collection title="Nymph Collection" products={nymphProducts} />
         <Divider />*/}
