@@ -99,7 +99,7 @@ export const products: Record<string, Product> = {
     coverImage: "images/copper-breath-0.jpg",
     coverImageAlt: "Copper Breath Pendant",
     price: "$78",
-    purchaseLink: "",
+    purchaseLink: "https://buy.stripe.com/5kQ00l9PN3Um1OX0Qz7Re0j",
     materials: "Copper Wire, Peach Jasper Heart Stone",
     productImages: [
       { img: "images/copper-breath-0.jpg", alt: "Copper Breath Pendant" },
@@ -290,7 +290,7 @@ export const products: Record<string, Product> = {
     coverImage: "images/prismatic-tide-0.jpg",
     coverImageAlt: "Prismatic Tide Pendant",
     price: "$90",
-    purchaseLink: "",
+    purchaseLink: "https://buy.stripe.com/14A7sNbXV9eGbpx2YH7Re07",
     materials: "Silver Plated Copper Wire, Rainbow Preciosa Crystal Beads, Chesapeake Bay Seaglass",
     productImages: [
       { img: "images/prismatic-tide-0.jpg", alt: "Prismatic Tide Pendant" },
