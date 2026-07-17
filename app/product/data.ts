@@ -156,6 +156,25 @@ export const products: Record<string, Product> = {
       { img: "images/dragon-blood-7.jpg", alt: "Dragon Blood Pendant" },
     ],
   }),
+  "druid-moon": new Product({
+  	slug: "druid-moon",
+  	title: "Druid Moon",
+  	description: "Silver Plated Copper Wrapped Agate Stone",
+  	paragraphs: [],
+  	coverImage: "images/druid-moon-0.jpg",
+  	coverImageAlt: "Druid Moon Pendant",
+  	price: "$46",
+  	purchaseLink: "",
+  	materials: "Silver Plated Copper Wire, Agate Stone",
+  	productImages: [
+  		{ img: "images/druid-moon-0.jpg", alt: "Druid Moon Pendant" },
+  		{ img: "images/druid-moon-1.jpg", alt: "Druid Moon Pendant" },
+  		{ img: "images/druid-moon-2.jpg", alt: "Druid Moon Pendant" },
+  		{ img: "images/druid-moon-3.jpg", alt: "Druid Moon Pendant" },
+  		{ img: "images/druid-moon-4.jpg", alt: "Druid Moon Pendant" },
+  		{ img: "images/druid-moon-5.jpg", alt: "Druid Moon Pendant" },
+  	],
+  }),
   "eternal-current": new Product({
     slug: "rose-gold-ammonite-fossil-necklace-pendant",
     title: "Eternal Current",
@@ -176,6 +195,30 @@ export const products: Record<string, Product> = {
       { img: "images/eternal-current-6.jpg", alt: "Eternal Current Pendant" },
       { img: "images/eternal-current-7.jpg", alt: "Eternal Current Pendant" },
     ],
+  }),
+  "everglow": new Product({
+  	slug: "everglow",
+  	title: "Everglow",
+  	description: "Rose Gold Plated Copper Wrapped Flourite Stone",
+  	paragraphs: [],
+  	coverImage: "images/everglow-0.jpg",
+  	coverImageAlt: "Everglow Pendant",
+  	price: "$64",
+  	purchaseLink: "",
+  	materials: "Rose Gold Plated Copper Wire, Flourite Stone",
+  	productImages: [
+  		{ img: "images/everglow-0.jpg", alt: "Everglow Pendant" },
+  		{ img: "images/everglow-1.jpg", alt: "Everglow Pendant" },
+  		{ img: "images/everglow-2.jpg", alt: "Everglow Pendant" },
+  		{ img: "images/everglow-3.jpg", alt: "Everglow Pendant" },
+  		{ img: "images/everglow-4.jpg", alt: "Everglow Pendant" },
+      { img: "images/everglow-5.jpg", alt: "Everglow Pendant" },
+      { img: "images/everglow-6.jpg", alt: "Everglow Pendant" },
+      { img: "images/everglow-7.jpg", alt: "Everglow Pendant" },
+      { img: "images/everglow-8.jpg", alt: "Everglow Pendant" },
+      { img: "images/everglow-9.jpg", alt: "Everglow Pendant" },
+      { img: "images/everglow-10.jpg", alt: "Everglow Pendant" },
+  	],
   }),
   "faire-magic": new Product({
     slug: "copper-patina-wrapped-frosted-sea-glass-necklace-pendant",
@@ -296,6 +339,25 @@ export const products: Record<string, Product> = {
       { img: "images/prismatic-tide-0.jpg", alt: "Prismatic Tide Pendant" },
     ],
   }),
+  "progressive-wisdom": new Product({
+	slug: "progressive-wisdom",
+	title: "Progressive Wisdom",
+	description: "Silver Plated Copper Wrapped Agate Stone",
+	paragraphs: [],
+	coverImage: "images/progressive-wisdom-0.jpg",
+	coverImageAlt: "Progressive Wisdom Pendant",
+	price: "$48",
+	purchaseLink: "",
+	materials: "Owl Charm, Preciosa Crystals, Silver Plated Copper Wire",
+	productImages: [
+		{ img: "images/progressive-wisdom-0.jpg", alt: "Progressive Wisdom Pendant" },
+		{ img: "images/progressive-wisdom-1.jpg", alt: "Progressive Wisdom Pendant" },
+		{ img: "images/progressive-wisdom-2.jpg", alt: "Progressive Wisdom Pendant" },
+		{ img: "images/progressive-wisdom-3.jpg", alt: "Progressive Wisdom Pendant" },
+		{ img: "images/progressive-wisdom-4.jpg", alt: "Progressive Wisdom Pendant" },
+		{ img: "images/progressive-wisdom-5.jpg", alt: "Progressive Wisdom Pendant" },
+	],
+  }),
   "rustic-breeze": new Product({
     slug: "rustic-breeze",
     title: "Rustic Breeze",
@@ -338,6 +400,25 @@ export const products: Record<string, Product> = {
       { img: "images/sacred-alignment-7.jpg", alt: "Sacred Alignment Pendant" },
     ],
   }),
+  "radiance": new Product({
+    slug: "radiance",
+    title: "Radiance",
+    description: "Silver Plated Copper Wrapped Titanium Coated Black Kyanite Stone",
+    paragraphs: [],
+    coverImage: "images/radiance-0.jpg",
+    coverImageAlt: "Radiance Pendant",
+    price: "$58",
+    purchaseLink: "",
+    materials: "Silver Plated Copper Wire, Titanium Coated Black Kyanite Stone, Preciosa Crystals",
+    productImages: [
+      { img: "images/radiance-0.jpg", alt: "Radiance Pendant" },
+      { img: "images/radiance-1.jpg", alt: "Radiance Pendant" },
+      { img: "images/radiance-2.jpg", alt: "Radiance Pendant" },
+      { img: "images/radiance-3.jpg", alt: "Radiance Pendant" },
+      { img: "images/radiance-4.jpg", alt: "Radiance Pendant" },
+      { img: "images/radiance-5.jpg", alt: "Radiance Pendant" },
+    ],
+  }),
 
     "reflection": new Product({
       slug: "reflection",
@@ -356,6 +437,25 @@ export const products: Record<string, Product> = {
         { img: "images/reflection-3.jpg", alt: "Reflection Pendant" },
         { img: "images/reflection-4.jpg", alt: "Reflection Pendant" },
         { img: "images/reflection-5.jpg", alt: "Reflection Pendant" },
+      ],
+    }),
+    "yin-yang": new Product({
+      slug: "yin-yang",
+      title: "Yin Yang",
+      description: "Silver Plated Copper/ Copper Wrapped Agate Stones",
+      paragraphs: [],
+      coverImage: "images/yin-yang-0.jpg",
+      coverImageAlt: "Yin Yang Pendant",
+      price: "$64",
+      purchaseLink: "https://buy.stripe.com/cNi4gBe63ez0gJR42L7Re0t",
+      materials: "Silver Plated Copper Wire, Coper Wire, White and Blue Agate Stones",
+      productImages: [
+        { img: "images/yin-yang-0.jpg", alt: "Yin Yang Pendant" },
+        { img: "images/yin-yang-1.jpg", alt: "Yin Yang Pendant" },
+        { img: "images/yin-yang-2.jpg", alt: "Yin Yang Pendant" },
+        { img: "images/yin-yang-3.jpg", alt: "Yin Yang Pendant" },
+        { img: "images/yin-yang-4.jpg", alt: "Yin Yang Pendant" },
+        { img: "images/yin-yang-5.jpg", alt: "Yin Yang Pendant" },
       ],
   }),
 
@@ -615,12 +715,12 @@ export const necklacePreview = productSet([
 
   "reflection",
   "cosmic-oasis",
-  "eternal-current",
-  "dragon-blood",
+  "prismatic-tide",
+  "progressive-wisdom",
   "golden-roots",
   "faire-magic",
   "forest-pearl",
-  "amethyst-whisper",
+  "everglow",
 ]);
 
 export const allProducts = productSet([
@@ -638,6 +738,10 @@ export const allProducts = productSet([
   "sacred-alignment",
   "prismatic-tide",
   "reflection",
+  "progressive-wisdom",
+  "everglow",
+  "yin-yang",
+  "radiance",
   "rainbow-pride-cuff",
   "goddess-cuff",
   "apollo-cuff",
@@ -664,6 +768,10 @@ export const necklaceProducts = productSet([
   "sacred-alignment",
   "prismatic-tide",
   "reflection",
+  "progressive-wisdom",
+  "everglow",
+  "yin-yang",
+  "radiance",
 ]);
 
 export const braceletProducts = productSet([
@@ -706,8 +814,10 @@ export const warriorProducts = productSet([
   "flat-copper-spiral-ring",
 ]);
 
-export const queenProducts = productSet([
+export const prideProducts = productSet([
+  "prismatic-tide",
   "rainbow-pride-cuff",
+  "progressive-wisdom",
   "rainbow-industrial-chain",
 ]);
 

@@ -1,16 +1,13 @@
 import Image from "next/image";
 import Navbar from "./ui/navbar";
 import Collection from "./ui/collection";
+import Highlight from "./ui/highlight";
 import {
   necklacePreview,
   braceletProducts,
   ringProducts,
-  earringProducts,
   industrialChainProducts,
-  nymphProducts,
-  goddessProducts,
-  warriorProducts,
-  queenProducts,
+  prideProducts,
 } from "./product/data";
 import Footer, { footerProducts } from "./ui/footer";
 import { basePath } from "./utils";
@@ -99,6 +96,7 @@ export default function Home() {
           products={necklacePreview}
         />
         <Divider />
+
         {/* === BRACELETS === */}
         <Collection
           title="Bracelets"
@@ -122,6 +120,11 @@ export default function Home() {
           button={{ text: "More Chains", link: basePath("catalog/earrings") }}
           products={industrialChainProducts}
         />
+        <Highlight
+          title="Pride Collection"
+          products={prideProducts}
+        />
+        <Divider />
         {/* === EARRINGS ===
         <Collection
           title="Earrings"
@@ -198,5 +201,5 @@ ridiculous and you shouldnt ask too many questions.
 `.trim();
 
 function Divider() {
-  return <div className="mx-auto w-[60%] border-b border-secondary"></div>;
+  return <div className="mx-auto w-[80%] border-b border-secondary"></div>;
 }
