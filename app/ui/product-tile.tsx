@@ -23,7 +23,7 @@ export default function ProductTile({ product }: ProductTileProps) {
             <h4 className="text-white text-xl font-bad-script text-center p-1">
               {product.title}
             </h4>
-
+{/*
             {!product.description ? (
               <></>
             ) : (
@@ -31,6 +31,7 @@ export default function ProductTile({ product }: ProductTileProps) {
                 {product.description}
               </p>
             )}
+            */}
             <p className="text-white text-2xl font-josefin text-center p-1">
               {product.price}
             </p>

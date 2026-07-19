@@ -5,7 +5,7 @@ import Highlight from "./ui/highlight";
 import {
   necklacePreview,
   braceletProducts,
-  ringProducts,
+  ringPreview,
   industrialChainProducts,
   prideProducts,
 } from "./product/data";
@@ -23,7 +23,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="bg-primary pt-20 font-josefin text-white">
+      <div className="bg-primary pt-10 font-josefin text-white">
         {/* === Anouncement === */}
         <Navbar />
         {/* === HERO / HEADER === */}
@@ -43,20 +43,19 @@ export default function Home() {
 
               {/* Title & CTA */}
               <div className="w-full lg:w-[65%] text-center lg:text-left">
-                <h1 className="font-cinzel text-center text-3xl sm:text-5xl lg:text-6xl xl:text-7xl text-white mb-6">
+                <h1 className="font-cinzel text-center text-3xl sm:text-4xl lg:text-4xl xl:text-5xl text-white mb-6">
                   Lunar Orchid Jewelry
                 </h1>
 
                 <h3 className="font-bad-script text-xl text-center sm:text-2xl text-gray-100 mb-4 leading-relaxed">
-                  <p>Earthly Inspired</p>
-                  <p>Hand Made</p>
-                  <p>Uniquely Imperfect</p>
-                </h3>
+                  <p>Earthly Inspired · Uniquely Imperfect</p>
 
+                </h3>
+{/*
                 <h4 className="font-bad-script text-base text-center sm:text-lg text-gray-100 mb-8 leading-relaxed">
                   <p>Float among the mystical and the magical</p>
                 </h4>
-                {/*
+
                 <div className="flex flex-wrap gap-4 justify-center">
                   <a
                     href="#"
@@ -95,7 +94,6 @@ export default function Home() {
           }}
           products={necklacePreview}
         />
-        <Divider />
 
         {/* === BRACELETS === */}
         <Collection
@@ -106,14 +104,12 @@ export default function Home() {
           }}
           products={braceletProducts}
         />
-        <Divider />
         {/* === RINGS === */}
         <Collection
           title="Rings"
           button={{ text: "More Rings", link: basePath("catalog/rings") }}
-          products={ringProducts}
+          products={ringPreview}
         />
-        <Divider />
         {/* === INDUSTRIAL CHAINS === */}
         <Collection
           title="Industrial Chains"

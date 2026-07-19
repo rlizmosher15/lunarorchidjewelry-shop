@@ -91,6 +91,48 @@ export const products: Record<string, Product> = {
       { img: "images/amethyst-whisper-7.jpg", alt: "Amethyst Whisper Pendant" },
     ],
   }),
+  "ancient-orthoceras": new Product({
+    slug: "copper-wrapped-orthoceras-fossil-necklace-pendant",
+    title: "Ancient Orthoceras",
+    description: "Copper Wrapped Orthoceras Fossil Pendant",
+    paragraphs: [],
+    coverImage: "images/ancient-orthoceras-0.jpg",
+    coverImageAlt: "Ancient Orthoceras Pendant",
+    price: "$68",
+    // sale: "$38",
+    purchaseLink: "",
+    materials: "Copper Wire, Orthoceras Fossil",
+    productImages: [
+      { img: "images/ancient-orthoceras-0.jpg", alt: "Ancient Orthoceras Pendant" },
+      { img: "images/ancient-orthoceras-1.jpg", alt: "Ancient Orthoceras Pendant" },
+      { img: "images/ancient-orthoceras-2.jpg", alt: "Ancient Orthoceras Pendant" },
+      { img: "images/ancient-orthoceras-3.jpg", alt: "Ancient Orthoceras Pendant" },
+      { img: "images/ancient-orthoceras-4.jpg", alt: "Ancient Orthoceras Pendant" },
+      { img: "images/ancient-orthoceras-5.jpg", alt: "Ancient Orthoceras Pendant" },
+      { img: "images/ancient-orthoceras-6.jpg", alt: "Ancient Orthoceras Pendant" },
+      { img: "images/ancient-orthoceras-7.jpg", alt: "Ancient Orthoceras Pendant" },
+    ],
+  }),
+
+  "clementine-glow": new Product({
+    slug: "silver-wrapped-citrine-necklace-pendant",
+    title: "Clementine Glow",
+    description: "Silver Plated Copper Wrapped Citrine Stone",
+    paragraphs: [],
+    coverImage: "images/clementine-glow-0.jpg",
+    coverImageAlt: "Clementine Glow Pendant",
+    price: "$58",
+    purchaseLink: "",
+    materials: "Silver Plated Copper Wire, Citrine Quartz Stone",
+    productImages: [
+      { img: "images/clementine-glow-0.jpg", alt: "Clementine Glow Pendant" },
+      { img: "images/clementine-glow-1.jpg", alt: "Clementine Glow Pendant" },
+      { img: "images/clementine-glow-2.jpg", alt: "Clementine Glow Pendant" },
+      { img: "images/clementine-glow-3.jpg", alt: "Clementine Glow Pendant" },
+      { img: "images/clementine-glow-4.jpg", alt: "Clementine Glow Pendant" },
+      { img: "images/clementine-glow-5.jpg", alt: "Clementine Glow Pendant" },
+    ],
+  }),
   "copper-breath": new Product({
     slug: "copper-wrapped-jasper-heart-necklace-pendant",
     title: "Copper Breath",
@@ -157,9 +199,9 @@ export const products: Record<string, Product> = {
     ],
   }),
   "druid-moon": new Product({
-  	slug: "druid-moon",
+  	slug: "copper-wrapped-onyx-crescent-moon-necklace-pendant",
   	title: "Druid Moon",
-  	description: "Silver Plated Copper Wrapped Agate Stone",
+  	description: "Copper Wrapped Onyx Crescent Moon Stone",
   	paragraphs: [],
   	coverImage: "images/druid-moon-0.jpg",
   	coverImageAlt: "Druid Moon Pendant",
@@ -172,7 +214,10 @@ export const products: Record<string, Product> = {
   		{ img: "images/druid-moon-2.jpg", alt: "Druid Moon Pendant" },
   		{ img: "images/druid-moon-3.jpg", alt: "Druid Moon Pendant" },
   		{ img: "images/druid-moon-4.jpg", alt: "Druid Moon Pendant" },
-  		{ img: "images/druid-moon-5.jpg", alt: "Druid Moon Pendant" },
+      { img: "images/druid-moon-5.jpg", alt: "Druid Moon Pendant" },
+  		{ img: "images/druid-moon-6.jpg", alt: "Druid Moon Pendant" },
+  		{ img: "images/druid-moon-7.jpg", alt: "Druid Moon Pendant" },
+
   	],
   }),
   "eternal-current": new Product({
@@ -197,7 +242,7 @@ export const products: Record<string, Product> = {
     ],
   }),
   "everglow": new Product({
-  	slug: "everglow",
+  	slug: "rose-gold-wrapped-flourite-necklace-pendant",
   	title: "Everglow",
   	description: "Rose Gold Plated Copper Wrapped Flourite Stone",
   	paragraphs: [],
@@ -340,7 +385,7 @@ export const products: Record<string, Product> = {
     ],
   }),
   "progressive-wisdom": new Product({
-	slug: "progressive-wisdom",
+	slug: "silver-rainbow-owl-charm-necklace-pendant",
 	title: "Progressive Wisdom",
 	description: "Silver Plated Copper Wrapped Agate Stone",
 	paragraphs: [],
@@ -359,7 +404,7 @@ export const products: Record<string, Product> = {
 	],
   }),
   "rustic-breeze": new Product({
-    slug: "rustic-breeze",
+    slug: "copper-wrapped-raw-edge-agate-necklace-pendant",
     title: "Rustic Breeze",
     description: "Copper Wrapped Raw Edge Agate Stone",
     paragraphs: [],
@@ -380,7 +425,7 @@ export const products: Record<string, Product> = {
     ],
   }),
   "sacred-alignment": new Product({
-    slug: "sacred-alignment",
+    slug: "copper-wrapped-chakra-necklace-pendant",
     title: "Sacred Alignment",
     description: "Copper Wire Wrapped Chakra Stone",
     paragraphs: [],
@@ -401,7 +446,7 @@ export const products: Record<string, Product> = {
     ],
   }),
   "radiance": new Product({
-    slug: "radiance",
+    slug: "silver-wrapped-titanium-black-kyanite-necklace-pendant",
     title: "Radiance",
     description: "Silver Plated Copper Wrapped Titanium Coated Black Kyanite Stone",
     paragraphs: [],
@@ -421,7 +466,7 @@ export const products: Record<string, Product> = {
   }),
 
     "reflection": new Product({
-      slug: "reflection",
+      slug: "silver-wrapped-blue-agate-necklace-pendant",
       title: "Reflection",
       description: "Silver Plated Copper Wrapped Agate Stone",
       paragraphs: [],
@@ -440,14 +485,14 @@ export const products: Record<string, Product> = {
       ],
     }),
     "yin-yang": new Product({
-      slug: "yin-yang",
+      slug: "silver-copper-wrapped-blue-white-agate-necklace-pendant-set",
       title: "Yin Yang",
       description: "Silver Plated Copper/ Copper Wrapped Agate Stones",
       paragraphs: [],
       coverImage: "images/yin-yang-0.jpg",
       coverImageAlt: "Yin Yang Pendant",
       price: "$64",
-      purchaseLink: "https://buy.stripe.com/cNi4gBe63ez0gJR42L7Re0t",
+      purchaseLink: "",
       materials: "Silver Plated Copper Wire, Coper Wire, White and Blue Agate Stones",
       productImages: [
         { img: "images/yin-yang-0.jpg", alt: "Yin Yang Pendant" },
@@ -716,11 +761,19 @@ export const necklacePreview = productSet([
   "reflection",
   "cosmic-oasis",
   "prismatic-tide",
-  "progressive-wisdom",
+  "oceanic-roots",
   "golden-roots",
   "faire-magic",
   "forest-pearl",
-  "everglow",
+  "amethyst-whisper",
+]);
+
+export const ringPreview = productSet([
+  "copper-spiral-flat-ring",
+  "copper-spiral-woven-ring",
+  "copper-rose-ring",
+  "silver-spiral-woven-ring",
+
 ]);
 
 export const allProducts = productSet([
@@ -738,16 +791,12 @@ export const allProducts = productSet([
   "sacred-alignment",
   "prismatic-tide",
   "reflection",
-  "progressive-wisdom",
-  "everglow",
-  "yin-yang",
-  "radiance",
-  "rainbow-pride-cuff",
-  "goddess-cuff",
   "apollo-cuff",
+  "goddess-cuff",
+  "rainbow-pride-cuff",
+  "copper-rose-ring",
   "copper-spiral-flat-ring",
   "copper-spiral-woven-ring",
-  "copper-rose-ring",
   "silver-spiral-woven-ring",
   "silver-rose-ring",
   "rainbow-industrial-chain",
@@ -768,10 +817,7 @@ export const necklaceProducts = productSet([
   "sacred-alignment",
   "prismatic-tide",
   "reflection",
-  "progressive-wisdom",
-  "everglow",
-  "yin-yang",
-  "radiance",
+
 ]);
 
 export const braceletProducts = productSet([
